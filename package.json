@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/hrr19-re-jx/mobile.Local.ly/issues"
   },
-  "homepage": "https://github.com/hrr19-re-jx/mobile.Local.ly#readme"
+  "homepage": "https://github.com/hrr19-re-jx/mobile.Local.ly#readme",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "react": "^15.3.2",
+    "react-native": "^0.37.0",
+    "react-native-cli": "^1.2.0",
+    "react-native-lock": "^0.4.0"
+  }
 }
