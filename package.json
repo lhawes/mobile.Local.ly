@@ -1,26 +1,35 @@
 {
   "name": "mobile.local.ly",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "private": true,
   "description": "Mobile App for location data",
-  "main": "index.js",
+  "author": "Lucas Hawes, Kevin Kim, Natasha Che, Aaron Stevens",
+  "license": "ISC",
+  "homepage": "https://github.com/hrr19-re-jx/mobile.Local.ly#readme",
+  "bugs": {
+    "url": "https://github.com/hrr19-re-jx/mobile.Local.ly/issues"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hrr19-re-jx/mobile.Local.ly.git"
   },
-  "author": "Lucas Hawes, Kevin Kim, Natasha Che, Aaron Stevens",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hrr19-re-jx/mobile.Local.ly/issues"
-  },
-  "homepage": "https://github.com/hrr19-re-jx/mobile.Local.ly#readme",
   "dependencies": {
-    "axios": "^0.15.2",
-    "react": "^15.3.2",
-    "react-native": "^0.37.0",
-    "react-native-cli": "^1.2.0",
-    "react-native-lock": "^0.4.0"
+    "react": "~15.3.1",
+    "react-native": "0.37.0",
+    "react-native-cli": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.0",
+    "jest-react-native": "17.0.0",
+    "react-test-renderer": "~15.3.1"
+  },
+  "jest": {
+    "preset": "jest-react-native"
   }
 }
