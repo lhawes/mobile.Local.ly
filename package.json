@@ -1,0 +1,19 @@
+{
+  "name": "mobile.local.ly",
+  "version": "1.0.0",
+  "description": "Mobile App for location data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr19-re-jx/mobile.Local.ly.git"
+  },
+  "author": "Lucas Hawes, Kevin Kim, Natasha Che, Aaron Stevens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrr19-re-jx/mobile.Local.ly/issues"
+  },
+  "homepage": "https://github.com/hrr19-re-jx/mobile.Local.ly#readme"
+}
